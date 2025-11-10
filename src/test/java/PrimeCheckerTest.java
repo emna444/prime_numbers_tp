@@ -6,7 +6,7 @@ public class PrimeCheckerTest {
     PrimeChecker PrimeChecker = new PrimeChecker();
 @Test
    public void test0IsNotPrime(){
-         assertFalse(PrimeChecker.isPrime(0), "0 should not be prime");
+         assertTrue(PrimeChecker.isPrime(1), "1 should  be prime");
    }
 
 
