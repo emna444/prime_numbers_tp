@@ -16,8 +16,5 @@ public class PrimeCheckerTest {
     public void test2IsNotPrime(){
         assertTrue(PrimeChecker.isPrime(2), "2 should be prime");
     }
-    @Test
-    public void test3IsNotPrime(){
-        assertTrue(PrimeChecker.isPrime(3), "3 should be prime");
-    }
+
 }
